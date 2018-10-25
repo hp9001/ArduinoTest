@@ -27,5 +27,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include=".yardopts" />
+    <Text Include="arduino_cigemspec" />
   </ItemGroup>
 </Project>
