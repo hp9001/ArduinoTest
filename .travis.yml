@@ -10,3 +10,4 @@ before_install:
   
 script:
   - arduino --verify --verbose --board arduino:avr:uno $PWD/ArduinoTest.ino
+  - wait 20m
