@@ -35,10 +35,6 @@ script:
 
    - bundle install
 
-   - bundle exec rubocop --version
-
-   - bundle exec rubocop -D .
-
    - bundle exec rspec --backtrace
 
    - bundle install
