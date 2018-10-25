@@ -19,6 +19,7 @@
     <None Include="..\Gemfile" />
     <None Include="..\.travis.yml" />
     <None Include="..\appveyor.yml" />
+    <None Include="..\.arduino-ci.yaml" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.ArduinoTest.vsarduino.h">
