@@ -40,8 +40,6 @@ test_script:
 
   - ps: $ProgressPreference = "SilentlyContinue"
 
-  - bundle exec rubocop --version
-
   - bundle exec rspec --backtrace
 
   - bundle install
