@@ -10,7 +10,3 @@ before_install:
   
 script:
   - arduino --verify --verbose --board arduino:avr:uno $PWD/ArduinoTest.ino
-notifications:
-  email:
-    on_success: change
-    on_failure: change
