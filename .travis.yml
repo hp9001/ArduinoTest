@@ -9,7 +9,7 @@ before_install:
   - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
   
 script:
-  - arduino
+  - arduino --verify 
 notifications:
   email:
     on_success: change
