@@ -9,7 +9,7 @@ before_install:
   - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
   
 script:
-  - arduino --verify --verbose-build --board arduino:avr:uno $PWD/ArduinoTest.ino
+  - arduino --verify --verbose --board arduino:avr:uno $PWD/ArduinoTest.ino
 notifications:
   email:
     on_success: change
