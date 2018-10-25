@@ -1,13 +1,48 @@
-language: c
-before_install:
-  - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_1.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :1 -ac -screen 0 1280x1024x16"
-  - sleep 3
-  - export DISPLAY=:1.0
-  - wget http://downloads.arduino.cc/arduino-1.6.5-linux64.tar.xz
-  - tar xf arduino-1.6.5-linux64.tar.xz
-  - sudo mv arduino-1.6.5 /usr/local/share/arduino
-  - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
+sudo: false
+language: ruby
+os:
+
+  - linux
+
+  - osx
+env:
+
+  - BADGE=linux
+
+  - BADGE=osx
+
+# hack to get some OS-specific badges
+
+matrix:
+
+  exclude:
+
+    - os: linux
+
+      env: BADGE=osx
+
+    - os: osx
+
+      env: BADGE=linux
+
+
+
+#before_install: gem install bundler -v 1.15.4
+
+script:
+
+   - g++ -v
+
+   - bundle install
+
+   - bundle exec rubocop --version
+
+   - bundle exec rubocop -D .
+
+   - bundle exec rspec --backtrace
+
+   - bundle install
+
+   - bundle exec arduino_ci_remote.rb
   
-script: 
-  -travis_wait 20 arduino --verbose-build --verify --board arduino:avr:uno $PWD/ArduinoTest.ino
 

@@ -141,12 +141,17 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\.travis.yml" />
+    <None Include="..\appveyor.yml" />
+    <None Include="..\Gemfile" />
     <None Include="ArduinoTest.ino">
       <FileType>CppCode</FileType>
     </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.ArduinoTest.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include=".yardopts" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
