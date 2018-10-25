@@ -8,6 +8,6 @@ before_install:
   - sudo mv arduino-1.6.5 /usr/local/share/arduino
   - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
   
-script: travis_wait 30
-  - arduino --verify --verbose --board arduino:avr:uno $PWD/ArduinoTest.ino
+script: 
+  - arduino --verbose-build --verify --board arduino:avr:uno $PWD/ArduinoTest.ino
 
