@@ -1,3 +1,2 @@
-source "https://rubygems.org"
-git_source(:github) { |ArduinoTest| "https://github.com/#{ArduinoTest}" }
+source 'https://rubygems.org'
 gem 'arduino_ci'
