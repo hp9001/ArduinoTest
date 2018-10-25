@@ -152,7 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include=".yardopts" />
-    <Text Include="arduino_cigemspec" />
+    <Text Include="arduino_ci.gemspec" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
