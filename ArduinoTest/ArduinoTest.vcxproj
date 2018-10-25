@@ -78,6 +78,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\.travis.yml" />
+    <None Include="..\appveyor.yml" />
     <None Include="..\Gemfile" />
     <None Include="ArduinoTest.ino">
       <FileType>CppCode</FileType>
