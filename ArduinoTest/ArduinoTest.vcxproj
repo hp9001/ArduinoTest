@@ -140,7 +140,7 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <None Include=".travis.yml" />
+    <None Include="..\.travis.yml" />
     <None Include="ArduinoTest.ino">
       <FileType>CppCode</FileType>
     </None>
