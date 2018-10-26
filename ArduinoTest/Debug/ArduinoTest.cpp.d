@@ -10,4 +10,6 @@ C:\Users\luigi.santagada\AppData\Local\Temp\VMBuilds\ArduinoTest\uno\Debug\Ardui
  C:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/Printable.h \
  C:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/USBAPI.h \
  C:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/Arduino.h \
- C:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\variants\standard/pins_arduino.h
+ C:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\variants\standard/pins_arduino.h \
+ C:\Users\luigi.santagada\source\repos\ArduinoTeamProjects\libraries\analogReadXXbit/eRCaGuy_analogReadXXbit.h \
+ C:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/Arduino.h
