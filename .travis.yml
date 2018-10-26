@@ -4,7 +4,7 @@ before_install:
   - sleep 3
   - export DISPLAY=:1.0
   - wget http://downloads.arduino.cc/arduino-1.6.5-linux64.tar.xz
-  - wget -P "lib/" https://github.com/hp9001/Libraries/blob/master/analogReadXXbit/eRCaGuy_analogReadXXbit.h
+  - wget -P "Lib/" http://github.com/hp9001/Libraries/blob/master/analogReadXXbit/eRCaGuy_analogReadXXbit.h
   - tar xf arduino-1.6.5-linux64.tar.xz
   - sudo mv arduino-1.6.5 /usr/local/share/arduino
   - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
