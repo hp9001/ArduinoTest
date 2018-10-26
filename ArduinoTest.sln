@@ -5,12 +5,6 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoTest", "ArduinoTest\ArduinoTest.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98A4AA16-A57A-432B-AD72-99EAD19D74E8}"
-	ProjectSection(SolutionItems) = preProject
-		ArduinoTest\eRCaGuy_analogReadXXbit.cpp = ArduinoTest\eRCaGuy_analogReadXXbit.cpp
-		ArduinoTest\eRCaGuy_analogReadXXbit.h = ArduinoTest\eRCaGuy_analogReadXXbit.h
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
