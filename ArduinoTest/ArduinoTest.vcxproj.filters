@@ -16,17 +16,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ArduinoTest.ino" />
-    <None Include="..\.travis.yml" />
-    <None Include="..\Gemfile" />
-    <None Include="..\appveyor.yml" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.ArduinoTest.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include=".yardopts" />
-    <Text Include="arduino_ci.gemspec" />
   </ItemGroup>
 </Project>
