@@ -113,7 +113,7 @@ float eRCaGuy_analogReadXXbit::analogReadXXbit(uint8_t analogPin, uint8_t bits_o
   //outer loop: get the number of samples to avg
   unsigned long reading_sum = 0;
   for (unsigned long i=0; i<num_samples_to_avg; i++)
-  {xxxxxx
+  {
     //inner loop: do oversampling, per AVR121 Application Note, in order to enhance resolution of 10-bit ADC
     unsigned long inner_sum = 0;
     for (unsigned long j=0; j<oversample_num; j++)
