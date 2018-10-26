@@ -23,4 +23,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Lib\New Text Document.txt" />
+  </ItemGroup>
 </Project>
