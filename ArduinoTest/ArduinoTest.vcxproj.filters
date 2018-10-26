@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ArduinoTest.ino" />
+    <None Include=".travis.yml" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.ArduinoTest.vsarduino.h">
