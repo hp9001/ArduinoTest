@@ -10,9 +10,7 @@ before_install:
   - git clone https://github.com/hp9001/Libraries Libraries
   - cd Libraries
   - git submodule add https://github.com/hp9001/Libraries external_library
-  
-- cd scripts
-- ln -s ../external_library/analogReadXXbit/eRCaGuy_analogReadXXbit.h
+
   
 script:
   - arduino --verbose-build --verify --board arduino:avr:uno $PWD/ArduinoTest/ArduinoTest.ino
