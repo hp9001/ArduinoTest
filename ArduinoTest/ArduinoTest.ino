@@ -5,9 +5,9 @@
 */
 
 // the setup function runs once when you press reset or power the board
-#include "\Libraries\analogReadXXbit\eRCaGuy_analogReadXXbit.h"
+#include "..\..\Libraries\analogReadXXbit\eRCaGuy_analogReadXXbit.h"
 
-void setup() { 
+void setup() {
 	
 }
 
