@@ -8,7 +8,6 @@ before_install:
   - sudo mv arduino-1.8.5 /usr/local/share/arduino
   - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
   - git submodule add https://github.com/hp9001/Libraries Libraries
-  - cd scripts
   - ln -s ../Libraries/analogReadXXbit/eRCaGuy_analogReadXXbit.h
 
 
