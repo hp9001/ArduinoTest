@@ -7,7 +7,7 @@ before_install:
   - tar xf arduino-1.8.5-linux64.tar.xz
   - sudo mv arduino-1.8.5 /usr/local/share/arduino
   - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
-  - git submodule add https://github.com/hp9001/Libraries $PWD/ArduinoTest/Libraries
+  - git submodule add https://github.com/MicroControllerTeamProject/Libraries $PWD/ArduinoTest/Libraries
   - cp $PWD/ArduinoTest/Libraries/analogReadXXbit/*.h $PWD/ArduinoTest
   - cp $PWD/ArduinoTest/Libraries/analogReadXXbit/*.cpp $PWD/ArduinoTest
   
