@@ -8,8 +8,8 @@ before_install:
   - sudo mv arduino-1.8.5 /usr/local/share/arduino
   - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
   - git submodule add https://github.com/hp9001/Libraries $PWD/ArduinoTest/Libraries
-  - copy *.cpp $PWD/ArduinoTest/Libraries/analogReadXXbit $PWD/ArduinoTest
-  - copy *.h $PWD/ArduinoTest/Libraries/analogReadXXbit $PWD/ArduinoTest
+  - cp *.cpp $PWD/ArduinoTest/Libraries/analogReadXXbit $PWD/ArduinoTest
+  - cp *.h $PWD/ArduinoTest/Libraries/analogReadXXbit $PWD/ArduinoTest
   
 script:
   - arduino --verbose-build --verify --board arduino:avr:uno $PWD/ArduinoTest/ArduinoTest.ino
