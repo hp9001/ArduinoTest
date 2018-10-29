@@ -10,6 +10,7 @@ before_install:
   - git submodule add https://github.com/MicroControllerTeamProject/Libraries $PWD/ArduinoTest/Libraries
   - cp $PWD/ArduinoTest/Libraries/analogReadXXbit/*.h $PWD/ArduinoTest
   - cp $PWD/ArduinoTest/Libraries/analogReadXXbit/*.cpp $PWD/ArduinoTest
+
   
 script:
   - arduino --verbose-build --verify --board arduino:avr:uno $PWD/ArduinoTest/ArduinoTest.ino
