@@ -7,6 +7,7 @@ before_install:
   - tar xf arduino-1.8.5-linux64.tar.xz
   - sudo mv arduino-1.8.5 /usr/local/share/arduino
   - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
+  - $ git clone https://github.com/hp9001/Libraries Libraries
 script:
   - arduino --verbose-build --verify --board arduino:avr:uno $PWD/ArduinoTest/ArduinoTest.ino
 notifications:
