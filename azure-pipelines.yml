@@ -8,8 +8,8 @@ pool:
 
 variables:
   solution: '**/*.sln'
-  buildPlatform: 'x86'
-  buildConfiguration: 'Debug'
+  buildPlatform:
+  buildConfiguration:
 
 steps:
 - task: NuGetToolInstaller@0
