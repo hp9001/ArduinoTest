@@ -7,7 +7,7 @@
 // the setup function runs once when you press reset or power the board
 #include "eRCaGuy_analogReadXXbit.h"
 void setup() {       
-	
+	//Prova di chiusura issue
 }
 
 // the loop function runs over and over again until power down or reset
