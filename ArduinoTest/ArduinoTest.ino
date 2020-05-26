@@ -12,6 +12,6 @@ void setup() {
 
 // the loop function runs over and over again until power down or reset
 void loop() {  
-   cc
+   ccttt
 }
  
