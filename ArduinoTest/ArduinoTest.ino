@@ -12,6 +12,7 @@ void setup() {
 	//Ma ora faccio anche questa!!!!!!
 	///aiaiaiaiaiaiiaa
 	//primo
+	//socondo
 }
 
 // the loop function runs over and over again until power down or reset
