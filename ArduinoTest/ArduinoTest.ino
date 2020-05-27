@@ -8,7 +8,7 @@
 #include "eRCaGuy_analogReadXXbit.h"
 
 void setup() {
-	//Ora faccio questo!!!!!!!
+	//Ora faccio questo wererrrrrrrr!!!!!!!
 	//Ma ora faccio anche questa!!!!!!
 }
 
