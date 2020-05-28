@@ -9,6 +9,7 @@
 
 void setup() {
 	Serial.begin(600);
+	Serial.println("Ciao mondo");
 }
 
 // the loop function runs over and over again until power down or reset
