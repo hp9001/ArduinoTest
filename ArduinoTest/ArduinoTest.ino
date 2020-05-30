@@ -8,8 +8,7 @@
 #include "eRCaGuy_analogReadXXbit.h"
 
 void setup() {
-	Serial.begin(9600);
-	Serial.println("Ciao mondo");
+	Serial.begin(600);
 }
 
 // the loop function runs over and over again until power down or reset
