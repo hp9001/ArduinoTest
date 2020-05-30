@@ -9,6 +9,15 @@
 
 void setup() {
 	Serial.begin(10000);
+	Serial.begin(10000);
+	Serial.begin(10000);
+	Serial.begin(10000);
+	Serial.begin(10000);
+	Serial.begin(10000);
+	Serial.begin(10000);
+	Serial.begin(10000);
+	Serial.begin(10000);
+	Serial.begin(10000);
 }
 
 // the loop function runs over and over again until power down or reset
