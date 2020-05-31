@@ -260,3 +260,5 @@ paket-files/
 __pycache__/
 *.pyc
 ArduinoTest/__vm/Upload.vmps.xml
+ArduinoTest/__vm/Compile.vmps.xml
+ArduinoTest/__vm/Configuration.Debug.vmps.xml
